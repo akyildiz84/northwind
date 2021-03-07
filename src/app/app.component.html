@@ -1,0 +1,20 @@
+<!-- Welcome to {{title}}
+Hello {{user}}
+
+{{product1.productName}} -->
+<!-- directive -> ng, if, built-in(gibi kendi içinde gelen), ayrıca kendimiz de oluşturabiliyoruz app teki komponentler gibi -->
+<!-- ng g(generate/oluştur (-g global ilk kurulumdaki)) component product -->
+<!-- ng g component category ve navi(menü, navigator(netscape navigator i hatırla, lan neydi o öyle, sonradan patates oldu) yi oluştur. -->
+<!-- <ul> -->
+  <!-- <li>Laptop</li>
+  <li>Mouse</li>
+  <li>Keyboard</li>
+  <li>Table</li> -->
+  <!-- ngFor li yi tekrarla, directive -->
+  <!-- <li *ngFor="let product of products">{{product.productName}}</li>
+</ul> -->
+<app-navi></app-navi>
+<app-category></app-category>
+<app-product></app-product>
+
+<router-outlet></router-outlet>
